@@ -67,7 +67,10 @@ void Output(LIST list)
 {
 	NODE* pNode = list.pHead;
 	if (IsEmpty(list))
+	{
+		cout << "\nDanh sach rong!";
 		return;
+	}
 	cout << "{ ";
 	while (pNode)
 	{
